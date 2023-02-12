@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate developer who loves to build applications from  end to end  that create impact.",
   resumeLink:
-    "https://texastechuniversity-my.sharepoint.com/:w:/g/personal/ldanda_ttu_edu/EdIqGfM2ITBNhv5QdvcKBKEBj42X-CQfRW_e5F-pco86Ew?e=b8gJPO",
+    "https://drive.google.com/file/d/10e8nRTlkNNhCs7d8pIAjULk3xCdQRhsA/view?usp=sharing",
   portfolio_repository: "https://github.com/lingaiahdanda",
   githubProfile: "https://github.com/lingaiahdanda",
 };
