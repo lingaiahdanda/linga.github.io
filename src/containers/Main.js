@@ -9,6 +9,7 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
+import Blogs from "../containers/blogs/Blogs.js";
 
 export default class Main extends Component {
   render() {
@@ -51,12 +52,6 @@ export default class Main extends Component {
                 path="/contact"
                 render={(props) => (
                   <Contact {...props} theme={this.props.theme} />
-                )}
-              />
-              <Route
-                path="/splash"
-                render={(props) => (
-                  <Splash {...props} theme={this.props.theme} />
                 )}
               />
               <Route
@@ -114,6 +109,7 @@ export default class Main extends Component {
                   <Contact {...props} theme={this.props.theme} />
                 )}
               />
+              <Route path="/blogs" render={(props) => <Blogs></Blogs>} />
               {/* <Route
 							path="/splash"
 							render={(props) => (

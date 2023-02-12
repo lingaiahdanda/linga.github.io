@@ -1,31 +1,13 @@
 import React from "react";
+import styled from "styled-components";
 import "./Blog.css";
-import BlogCard from "../../components/blogCard/BlogCard";
-import { blogSection } from "../../portfolio";
+
+const Container = styled.div`
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./hanshnode.jpg");
+`;
 
 export default function Blogs() {
-  return (
-    <div className="main" id="blogs">
-      <div className="blog-header">
-        <h1 className="blog-header-text">{blogSection.title}</h1>
-        <p className="subTitle blog-subtitle">{blogSection.subtitle}</p>
-      </div>
-      <div className="blog-main-div">
-        <div className="blog-text-div">
-          {blogSection.blogs.map((blog) => {
-            return (
-              <BlogCard
-                blog={{
-                  url: blog.url,
-                  image: blog.image,
-                  title: blog.title,
-                  description: blog.description,
-                }}
-              />
-            );
-          })}
-        </div>
-      </div>
-    </div>
-  );
+  return <Container></Container>;
 }

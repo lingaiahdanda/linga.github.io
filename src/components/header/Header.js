@@ -85,16 +85,16 @@ class Header extends Component {
                 </NavLink>
               </li>
               <li>
-                <NavLink
-                  to="/opensource"
-                  tag={Link}
+                <a
+                  target="_blank"
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
+                  href="https://linga.hashnode.dev"
                 >
-                  Open Source
-                </NavLink>
+                  Blogs
+                </a>
               </li>
               <li>
                 <NavLink
