@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "LingaiahDanda",
   nickname: "Linga",
   subTitle:
-    "A passionate developer who loves to build applications from  end to end  that create impact.",
+    "A passionate developer who loves to build web applications from  end to end  that create impact.",
   resumeLink:
     "https://drive.google.com/file/d/10e8nRTlkNNhCs7d8pIAjULk3xCdQRhsA/view?usp=sharing",
   portfolio_repository: "https://github.com/lingaiahdanda",
@@ -310,7 +310,7 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description: "My projects inclused various full stack technologies",
+  description: "My projects includes various full stack technologies",
   avatar_image_path: "projects_image.svg",
 };
 
