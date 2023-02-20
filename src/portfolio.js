@@ -70,8 +70,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React, Redux, Angular",
-        "⚡ Creating application backend in Node, Express, Spring Boot",
-        "⚡ Worked with databases like  MySQL, MongoDB using ORMs like Mongoose, Hibernate",
+        "⚡ Creating application backend in Node, Express, ASP .NET ",
+        "⚡ Worked with databases like  MySQL, MS SQL Server , MongoDB using ORMs like Mongoose, Entity",
       ],
       softwareSkills: [
         {
@@ -125,8 +125,8 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: ".NET",
+          fontAwesomeClassname: "simple-icons:dotnet",
           style: {
             color: "#2C8EBB",
           },
@@ -145,13 +145,20 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experienced in deploying applications to AWS",
-        "⚡ Deployed applications on AWS S3, EC2 using AWS Code piepline, Github Actions",
+        "⚡ Deployed applications on AWS S3, EC2 using AWS Code piepline, Azure App Services, Github Actions",
         "⚡ Knowledge on creating CI/CD pipeline",
       ],
       softwareSkills: [
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
           style: {
             color: "#FF9900",
           },
