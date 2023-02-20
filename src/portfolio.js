@@ -298,7 +298,7 @@ const experience = {
           duration: "Jan 2020 - Jan 2022",
           location: "Hyderabad, Telangana",
           description:
-            "Contributed as a Full Stack Developer to a reliable courier service web application  with a focus on next day deliveries utilizing tech stack of React.js, Node.js, and MongoDB with a team of four people. Achieved increased customer engagement by 13% and growth in client base through the development and deployment of a user-friendly application",
+            "Contributed as a Full Stack Developer to a reliable courier service web application  with a focus on next day deliveries utilizing tech stack of React.js, Node.js, .NET, MSSQL Server and MongoDB with a team of four people. Achieved increased customer engagement by 13% and growth in client base through the development and deployment of a user-friendly application",
           color: "#0879bf",
         },
       ],
