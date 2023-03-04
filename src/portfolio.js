@@ -24,8 +24,10 @@ const greeting = {
   nickname: "Linga",
   subTitle:
     "A passionate developer who loves to build web applications from  end to end  that create impact.",
+  OpenTo:
+    "Software Engineer, Juinor Software Engineer, Frontend Developer, Backend Developer, Java Fullstack Developer, Javascript FullStack Developer",
   resumeLink:
-    "https://drive.google.com/file/d/10e8nRTlkNNhCs7d8pIAjULk3xCdQRhsA/view?usp=sharing",
+    "https://drive.google.com/file/d/1-Ldgw6KCuj4bbnJgFSGQLPsRUlgSMurT/view?usp=sharing",
   portfolio_repository: "https://github.com/lingaiahdanda",
   githubProfile: "https://github.com/lingaiahdanda",
 };
@@ -70,8 +72,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React, Redux, Angular",
-        "⚡ Creating application backend in Node, Express, ASP .NET ",
-        "⚡ Worked with databases like  MySQL, MS SQL Server , MongoDB using ORMs like Mongoose, Entity",
+        "⚡ Creating application backend in Node, Express, Spring Framework ",
+        "⚡ Worked with databases like  MySQL, MS SQL Server , MongoDB using ORMs like Mongoose,Hibernate",
       ],
       softwareSkills: [
         {
@@ -86,13 +88,6 @@ const skills = {
           fontAwesomeClassname: "fa-css3",
           style: {
             color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -111,6 +106,13 @@ const skills = {
           },
         },
         {
+          skillName: "Anguklar",
+          fontAwesomeClassname: "simple-icons:angular",
+          style: {
+            color: "red",
+          },
+        },
+        {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
@@ -125,17 +127,31 @@ const skills = {
           },
         },
         {
-          skillName: ".NET",
-          fontAwesomeClassname: "simple-icons:dotnet",
+          skillName: "Spring Framework",
+          fontAwesomeClassname: "simple-icons:spring",
           style: {
-            color: "#2C8EBB",
+            color: "green",
           },
         },
         {
-          skillName: "Git",
+          skillName: "GraphQl API",
+          fontAwesomeClassname: "simple-icons:graphql",
+          style: {
+            color: "pink",
+          },
+        },
+        {
+          skillName: "GitHub",
           fontAwesomeClassname: "simple-icons:github",
           style: {
-            color: "#2C8EBB",
+            color: "black",
+          },
+        },
+        {
+          skillName: "GitLab",
+          fontAwesomeClassname: "simple-icons:gitlab",
+          style: {
+            color: "orange",
           },
         },
       ],
@@ -145,20 +161,13 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experienced in deploying applications to AWS",
-        "⚡ Deployed applications on AWS S3, EC2 using AWS Code piepline, Azure App Services, Github Actions",
+        "⚡ Deployed applications on AWS S3, EC2 using AWS Code piepline and  Github Actions",
         "⚡ Knowledge on creating CI/CD pipeline",
       ],
       softwareSkills: [
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
           style: {
             color: "#FF9900",
           },

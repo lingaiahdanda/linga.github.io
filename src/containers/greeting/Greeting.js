@@ -23,6 +23,10 @@ export default function Greeting(props) {
               >
                 {greeting.subTitle}
               </p>
+
+              <p className="subTitle">
+                I am open to work as <h3>{greeting.OpenTo}</h3>
+              </p>
               <SocialMedia theme={theme} />
               <div>
                 <Button

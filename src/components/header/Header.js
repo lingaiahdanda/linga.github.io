@@ -10,6 +10,17 @@ const onMouseEnter = (event, color) => {
   el.style.backgroundColor = color;
 };
 
+const NavbarStyle = {
+  height: "50px",
+  backgroundColor: "#001C55",
+  color: "white",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  fontSsize: "14px",
+  fontWeight: "500",
+};
+
 const onMouseOut = (event) => {
   const el = event.target;
   el.style.backgroundColor = "transparent";
@@ -23,6 +34,10 @@ class Header extends Component {
       <Fade top duration={1000} distance="20px">
         <SeoHeader />
         <div>
+          <div style={NavbarStyle}>
+            I am currently looking for Full time Software Development Engineer
+            Roles starting May 2023
+          </div>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
               <span style={{ color: theme.text }}> &lt;</span>
