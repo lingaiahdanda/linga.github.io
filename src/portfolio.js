@@ -27,7 +27,7 @@ const greeting = {
   OpenTo:
     "Software Engineer, Juinor Software Engineer, Frontend Developer, Backend Developer, Java Fullstack Developer, Javascript FullStack Developer",
   resumeLink:
-    "hhttps://drive.google.com/file/d/1utDPHHKymAxv9dab7ClsxW5gYoi71sHb/view?usp=sharing",
+    "https://drive.google.com/file/d/1utDPHHKymAxv9dab7ClsxW5gYoi71sHb/view?usp=sharing",
   portfolio_repository: "https://github.com/lingaiahdanda",
   githubProfile: "https://github.com/lingaiahdanda",
 };
