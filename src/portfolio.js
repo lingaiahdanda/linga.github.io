@@ -360,7 +360,7 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "Currently in Lubbock,Texas, Email me at dandalingaiah363@gmail.com",
+      "Currently in Plano,Texas, Email me at dandalingaiah363@gmail.com",
     avatar_image_path: "address_image.svg",
     location_map_link:
       "https://www.google.com/maps/place/Lubbock,+TX/data=!4m2!3m1!1s0x86fe12add37ddd39:0x1af0042922e84287?sa=X&ved=2ahUKEwiTp4CduoT9AhWEkmoFHc6IB-IQ8gF6BAgIEAI",
