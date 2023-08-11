@@ -36,7 +36,7 @@ class Header extends Component {
         <div>
           <div style={NavbarStyle}>
             I am currently looking for Full time Software Development Engineer
-            Roles starting May 2023
+            Roles starting Immediately and authorized to work in united states.
           </div>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
